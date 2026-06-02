@@ -25,14 +25,18 @@ For design applicants, the challenge round moved from first-time bitcoin wallet 
 
 These were not toy problems. Some of the best submissions were technically rigorous and creative enough to be useful to non-technical users on day one. As one example from the chain-analysis challenge, a student from India built and demoed a polished visual analysis tool: [watch the walkthrough](https://www.youtube.com/watch?v=OcI5FrvTMRY).
 
+One important nuance: the proposal round was broader than the assignment funnel alone. Returning applicants who had already qualified for the proposal round in previous years were eligible to submit proposals without repeating the challenge stage. The current proposal pool combined 136 first-time applicants who advanced through this year's challenge round, 154 returning applicants who were already eligible from prior years, and a small number of additional eligible applicants.
+
 Here is what the funnel looked like:
 
 *   3,272 applicants from 51 countries and 1,813 universities
 *   992 students reached the screening and challenge stage
 *   626 students passed assignment 1
 *   379 students passed assignment 2
-*   290 students passed assignment 3
-*   294 applicants reached the proposal stage, with 379 proposal records reviewed
+*   136 first-time applicants advanced from this year's final challenge stage
+*   154 returning applicants were already eligible for the proposal round from prior years
+*   A small number of additional eligible applicants completed the proposal pool
+*   295 applicants reached the proposal stage, with 379 proposal records reviewed
 *   50 student contributors selected across 26 open-source bitcoin organizations
 *   44 developer placements and 6 designer placements
 
@@ -41,38 +45,9 @@ Here is what the funnel looked like:
 <figcaption>Summer of Bitcoin 2026 narrowed 3,272 applications into 50 selected contributors through a multi-week challenge and proposal process</figcaption>
 </figure>
 
-The selected cohort represents 7 countries: India (42), Spain (2), the United States (2), Australia (1), Costa Rica (1), Germany (1), and Nigeria (1). Contributors will work on bitcoin protocol infrastructure, wallets, developer tooling, privacy, testing, mining, bitcoin applications, and design projects. This year's project ideas were scoped with mentors for a 12-week full-time summer window, so students can move from onboarding to meaningful public work in code, design, research, and documentation.
+The selected cohort represents 7 countries: Australia, Costa Rica, Germany, India, Nigeria, Spain, and the United States. Contributors will work on bitcoin protocol infrastructure, wallets, developer tooling, privacy, testing, mining, bitcoin applications, and design projects. This year's project ideas were scoped with mentors for a 12-week full-time summer window, so students can move from onboarding to meaningful public work in code, design, research, and documentation.
 
-This year's participating organizations and selected contributors are:
-
-| Organization | Selected contributors |
-|---|---|
-| asmap | Joris Strakeljahn |
-| BDK | Domènec Madrid, Rishit Modi |
-| Bitcoin Core | Biel Castellarnau |
-| Bitcoin Design | Aditya Sarna |
-| Bitcoin-Fuzz | Suryansh Singh |
-| Braidpool | Kushagra Kinra, Parth, Priya Rani, Rasesh Shetty |
-| Coinswap | Tanishka Nibariya, Yogansh Sharma |
-| ContextVM | Abhay, Harsh Kumar Chandwani, Khushvendra Singh |
-| Cove | Sandip |
-| Demand | Frieda Odagboyi, Jyotiraditya Panda |
-| Fedimint | Om Swami |
-| Floresta | Ved Patel |
-| Flotilla | Aditya Chaudhary, Saksham Jain |
-| Formstr | Manas Dash, Naman Khandelwal |
-| Jam | Kishore B, Parth Bandwal |
-| Kern | Subinita Ray |
-| Krux | Naman Gupta, Tanveer Ansari |
-| Mostro | Brian |
-| Nostr Components | Alok Dangre |
-| Nostream | Anshuman Singh, Saniddhya Dubey |
-| SeedSigner | Akhil Dhyani, Chaitanya Keyal, Kshitij Dhamanikar, Mayank Yadav |
-| Shopstr | Arman Thakur, Arnav Kirti, Aryan Jain, Ashutosh Rana, Ayush Srivastava |
-| smite | Ashish Kumar Dash, Chandra Pratap |
-| Stable Channels | Anurag Thakur, Biresh Biswas, Prabal Patra |
-| strfry | Anurag Mishra, Shivansh Jain |
-| VLS | Vatsal Keshav |
+This year's participating organizations are: asmap, BDK, Bitcoin Core, Bitcoin Design, Bitcoin-Fuzz, Braidpool, Coinswap, ContextVM, Cove, Demand, Fedimint, Floresta, Flotilla, Formstr, Jam, Kern, Krux, Mostro, Nostr Components, Nostream, SeedSigner, Shopstr, smite, Stable Channels, strfry, and VLS.
 
 All student contributors have been paired with mentors and began the project period on May 18. Over the first few weeks, students are getting set up in project repositories and communities, confirming milestones with mentors, and beginning early implementation or design discovery. The project period continues through August 16, with mid-term evaluations scheduled for June 29 to July 3.
 
