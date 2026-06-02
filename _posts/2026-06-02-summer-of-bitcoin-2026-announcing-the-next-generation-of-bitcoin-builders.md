@@ -11,19 +11,34 @@ image: "./assets/images/blog_content/summer-of-bitcoin-2026-results.png"
 
 We are excited to announce the results for Summer of Bitcoin 2026!
 
-This year, students applied to the developer and designer tracks from around the world. Applicants moved from application review into a multi-week challenge round, then into a project-specific proposal round where mentors and the organizing team reviewed their work for practical bitcoin understanding, shipping ability, written communication, and fit with open-source project needs.
+This year, students applied to the developer and designer tracks from around the world. We also deliberately leveled up the application stage for an AI-native world. AI tools have made it easier than ever to produce polished portfolios, code samples, and quick one-off submissions. Instead of trying to screen AI out, we made the challenge round difficult enough that candidates had to use every tool available well.
 
-Here are some notable results from this year's application process:
+The point was to see who could use AI to deepen their understanding of the bitcoin protocol, validate their assumptions, accelerate real development, and still explain trade-offs clearly. The strongest applicants were not just generating code. They were using AI as a learning and building partner while showing protocol knowledge, judgment, and the ability to ship reviewable work.
+
+For developer applicants, this meant a sequence of grueling real-world bitcoin engineering challenges:
+
+*   **Week 1: Chain Lens** - build a transaction parser and visualizer that turns raw Bitcoin transaction and block data into machine-checkable JSON and human-friendly explanations.
+*   **Week 2: Coin Smith** - build a safe PSBT transaction builder with coin selection, fee/change handling, defensive validation, and a web UI to justify the result.
+*   **Week 3: Sherlock** - build a chain analysis engine over real block data, apply privacy and wallet heuristics, generate Markdown reports, and present the findings in an interactive visualizer.
+
+For design applicants, the challenge round moved from first-time bitcoin wallet analysis to user research, persona mapping, and high-fidelity wallet interaction design around keys, backups, payment states, fees, privacy warnings, and other user-facing bitcoin flows.
+
+These were not toy problems. Some of the best submissions were technically rigorous and creative enough to be useful to non-technical users on day one. As one example from the chain-analysis challenge, a student from India built and demoed a polished visual analysis tool: [watch the walkthrough](https://www.youtube.com/watch?v=OcI5FrvTMRY).
+
+Here is what the funnel looked like:
 
 *   3,272 applicants from 51 countries and 1,813 universities
 *   992 students reached the screening and challenge stage
+*   626 students passed assignment 1
+*   379 students passed assignment 2
+*   290 students passed assignment 3
 *   294 applicants reached the proposal stage, with 379 proposal records reviewed
 *   48 student contributors selected across 25 open-source bitcoin organizations
 *   42 developer placements and 6 designer placements
 
 <figure>
 <img src="../assets/images/blog_content/summer-of-bitcoin-2026-results.png"/>
-<figcaption>48 student contributors from 6 countries were accepted to Summer of Bitcoin 2026</figcaption>
+<figcaption>Summer of Bitcoin 2026 narrowed 3,272 applications into 48 selected contributors through a multi-week challenge and proposal process</figcaption>
 </figure>
 
 The selected cohort represents Australia, Germany, India, Nigeria, Spain, and the United States. Contributors will work on bitcoin protocol infrastructure, wallets, developer tooling, privacy, testing, mining, bitcoin applications, and design projects. This year's project ideas were scoped with mentors for a 12-week full-time summer window, so students can move from onboarding to meaningful public work in code, design, research, and documentation.
@@ -35,8 +50,6 @@ Upon successful completion of their evaluations, all student contributors will r
 ---
 
 We are incredibly thankful to our 2026 program sponsors, **Spiral**, **Human Rights Foundation**, **BTrust**, and **OpenSats**, for their generous financial support towards funding student stipends and operations.
-
-We're also thankful to our service partners: **Blockstream Jade** for supporting the cohort with hardware wallets, **Unchained** for self-custody support, **River Financial** for brokerage support, and **Bitcoiner Jobs** for job listing support.
 
 We are also thankful to every mentor who reviewed proposals and helped shape student projects. Summer of Bitcoin works because open-source teams make time to turn promising students into real contributors.
 
