@@ -86,10 +86,10 @@ Once that end-to-end flow is live, we'll hit the roadmap board and pull the next
 
 ## Links to my work:
 
-* [CEP-41 Specification Draft](https://github.com/ContextVM/contextvm-docs/pull/40) (Merged)
-* [CEP-41 Stream Transport Implementation](https://github.com/ContextVM/sdk/pull/71) (Merged)
-* [Core Transport Layer Refactor](https://github.com/ContextVM/sdk/pull/72) (Merged)
-* [Core LLM Web Chat Integration](https://github.com/ContextVM/contextvm-site/pull/29) (Merged)
-* [MCP Agentic Orchestration Layer](https://github.com/ContextVM/contextvm-site/pull/31) (Open)
-* [CEP-8 Explicit Gating Lifecycle](https://github.com/ContextVM/sdk/pull/75) (Open)
-* [Web Client Payment-Gating UX](https://github.com/ContextVM/contextvm-site/issues/32) (Issue)
+* [CEP-41 Specification Draft](https://github.com/ContextVM/contextvm-docs/pull/40) 
+* [CEP-41 Stream Transport Implementation](https://github.com/ContextVM/sdk/pull/71) 
+* [Core Transport Layer Refactor](https://github.com/ContextVM/sdk/pull/72) 
+* [Core LLM Web Chat Integration](https://github.com/ContextVM/contextvm-site/pull/29)
+* [MCP Agentic Orchestration Layer](https://github.com/ContextVM/contextvm-site/pull/31) 
+* [CEP-8 Explicit Gating Lifecycle](https://github.com/ContextVM/sdk/pull/75) 
+* [Web Client Payment-Gating UX](https://github.com/ContextVM/contextvm-site/issues/32) 
