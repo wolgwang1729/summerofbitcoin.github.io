@@ -1012,6 +1012,13 @@ authors:
   avatar : "assets/images/male.png"
   description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
 
+  Joris Strakeljahn:
+    name: Joris Strakeljahn
+    display_name: Joris Strakeljahn
+    avatar: 'assets/images/joris-strakeljahn.png'
+    web: https://x.com/jstrakeljahnx
+    description: "Summer of Bitcoin Batch of 2026, working on the ASmap dashboard"
+
 # Plugins
 plugins:
   - jekyll-paginate
