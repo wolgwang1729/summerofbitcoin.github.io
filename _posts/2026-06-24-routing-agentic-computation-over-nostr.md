@@ -15,11 +15,11 @@ Then I found **Nostr**.
 
 At first glance, Nostr looks like just another decentralized social network. **It's not.** It's a bare-bones, unapologetically simple message-passing protocol. And a message can carry *anything*. If Nostr can route a text post, it can route a request to run code. You can execute a function anywhere on the planet without asking a middleman for permission.
 
-This is exactly what we’re solving at [ContextVM](https://github.com/context-vm), the project I’m contributing to for **Summer of Bitcoin 2026**.
+This is exactly what we’re solving at [ContextVM](https://github.com/ContextVM), the project I’m contributing to for **Summer of Bitcoin 2026**.
 
 ---
 
-##  Enter ContextVM
+## Enter ContextVM
 
 ContextVM sits right at the intersection of Nostr and the **Model Context Protocol (MCP)**. People still think MCP is just an "AI agent" thing, but it’s really a protocol for calling remote functions. 
 
@@ -32,29 +32,29 @@ I'm Khushvendra Singh, and for the last six weeks, I've been building the transp
 
 ---
 
-##  What I've Built So Far
+## What I've Built So Far
 
 When you're building decentralized infrastructure, the "protocol work" isn't just writing new logic from scratch—it's meticulous specification modeling, threat analysis, and edge-case hunting. Every line of code is scrutinized, every protocol boundary carefully defined. Here's what I've shipped in the first half of the program:
 
-###  CEP-41 (Open-Ended Streams)
+### CEP-41 (Open-Ended Streams)
 Co-authored the spec and implemented the Nostr transport layer for open-ended streaming. Before a single line of feature code merged, we trapped and fixed six critical edge cases, including outbound buffer limits and a nasty stale-chunk bug that could wedge sessions indefinitely. The protocol had to be bulletproof from day one.
 
-###  Transport Layer Refactor
+### Transport Layer Refactor
 Stripped down and modularized the core Nostr transport layer, splitting two monolithic 1,500+ line files into clean, protocol-scoped coordinators and dispatchers. We kept strict backward compatibility, passing all 254 tests without breaking the public API. Clean architecture and zero regressions. 
 
-###  Web Chat Client (Phase 1)
+### Web Chat Client (Phase 1)
 Built the Svelte 5 production web client to prove the protocol works end-to-end. It features Bring-Your-Own-Token (BYOT) management, automated model rotation, and streaming markdown rendering. This is the visible interface to the whole system—the gateway between browsers and sovereign hardware.
 
-###  MCP Agentic Execution Loop & CEP-8
+### MCP Agentic Execution Loop & CEP-8
 Built the client-side orchestration layer with abort safety, permissioned approval tiers for sensitive tools, and multi-server registry using pubkey-based collision disambiguation. Implemented the `-32042`/`-32043` payment-required lifecycle (CEP-8) in the TypeScript SDK. This is the scaffolding for pay-per-call agentic execution over Nostr.
 
 ---
 
-##  The Hardest Problem I Faced
+## The Hardest Problem I Faced
 
 By far, the most maddening issue I ran into was inside the web client, specifically dealing with **Svelte 5’s `$state()` reactivity** when wrapping complex native objects.
 
-I needed to manage `AbortController` instances and the OpenAI SDK client inside our reactive state. It seemed harmless enough. But because Svelte 5 wraps `$state` objects in a `Proxy`, instances relying on internal private slots or internal state machines would silently corrupt. 🫠
+I needed to manage `AbortController` instances and the OpenAI SDK client inside our reactive state. It seemed harmless enough. But because Svelte 5 wraps `$state` objects in a `Proxy`, instances relying on internal private slots or internal state machines would be silently corrupted. 🫠
 
 The failure mode was the worst kind of bug: **zero console errors, no thrown exceptions.** Just a chat stream that would permanently wedge and die. I spent hours chasing ghosts—debugging IndexedDB cloning errors and stream teardown logic—before finally tracing it to the proxy boundary itself. 
 
@@ -62,7 +62,7 @@ The failure mode was the worst kind of bug: **zero console errors, no thrown exc
 
 ---
 
-##  Lessons from the Trenches
+## Lessons from the Trenches
 
 **1. Idempotency is terrifying when money is involved.** 💸
 
@@ -74,7 +74,7 @@ During the transport refactor, I initially extracted obvious standalone helpers 
 
 ---
 
-##  What's Next
+## What's Next
 
 Because ContextVM moves fast, I'm operating dynamically against the live production roadmap rather than an isolated timeline.
 
