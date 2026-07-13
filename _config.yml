@@ -504,6 +504,12 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/chandrapratap37"
     description: "Summer of Bitcoin Batch of 2025, worked on Lightning-Network"
+  Jyotiraditya Panda:
+    name: "Jyotiraditya Panda"
+    display_name: "Jyotiraditya Panda (Remo)"
+    avatar: "assets/images/blog_content/jyotiraditya-panda.jpg"
+    twitter: "https://x.com/remopanda7"
+    description: "Summer of Bitcoin Batch of 2026, worked on Demand"
   Khushal A:
     name: "Khushal A"
     display_name: "Khushal A"
@@ -1018,6 +1024,13 @@ authors:
     avatar: "assets/images/male.png"
     twitter: "https://x.com/SaikouNoKaichou"
     description: "Summer of Bitcoin Batch of 2026, working on ContextVM"
+
+  Joris Strakeljahn:
+    name: Joris Strakeljahn
+    display_name: Joris Strakeljahn
+    avatar: 'assets/images/joris-strakeljahn.png'
+    web: https://x.com/jstrakeljahnx
+    description: "Summer of Bitcoin Batch of 2026, working on the ASmap dashboard"
 
 # Plugins
 plugins:
