@@ -1013,10 +1013,17 @@ authors:
     description: "Summer of Bitcoin Batch of 2025, worked on ln-history.info"
   
   Arpan Jain:
-  name: "Arpan Jain"
-  display_name: "Arpan arpan2048 Jain"
-  avatar : "assets/images/male.png"
-  description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
+    name: "Arpan Jain"
+    display_name: "Arpan arpan2048 Jain"
+    avatar: "assets/images/male.png"
+    description: "Summer of Bitcoin Batch of 2025, worked on Nostr-Components"
+
+  Khushvendra Singh:
+    name: "Khushvendra Singh"
+    display_name: "Khushvendra Singh"
+    avatar: "assets/images/male.png"
+    twitter: "https://x.com/SaikouNoKaichou"
+    description: "Summer of Bitcoin Batch of 2026, working on ContextVM"
 
   Joris Strakeljahn:
     name: Joris Strakeljahn
@@ -1064,3 +1071,4 @@ adsense-data-ad-slot: "1363087678"
 lazyimages: "disabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+
